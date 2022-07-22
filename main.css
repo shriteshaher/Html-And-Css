@@ -1,0 +1,15 @@
+.box color:red p, .box2 color:red p {
+  border: blue solid 2px;
+  background-image: linear-gradient(top, red, blue);
+}
+@media screen and (min-width: 230px) {
+  .box color:red p, .box2 color:red p {
+    border: gray solid 1px;
+  }
+}
+
+.box2 h1 {
+  color: green;
+}
+
+/*# sourceMappingURL=main.css.map */
